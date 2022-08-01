@@ -7,5 +7,4 @@ function potion.new()
 
     return potion
 end
-
 return potion
