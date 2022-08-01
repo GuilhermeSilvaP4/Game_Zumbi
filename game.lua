@@ -30,6 +30,7 @@ assert(#player3.potions == 1)
 zumbi1:attack(player1)
 zumbi2:attack(player1)
 zumbi4:attack(player1)
+print(zumbi4.name)
 zumbi4:attack(player2)
 print(player1.name .. " has ".. player1.life .. " of life")
 player1:use_potion()
@@ -38,9 +39,3 @@ print(player1.name .. " has ".. player1.life .. " of life")
 zumbi1:attack(player1)
 zumbi1:attack(player1)
 zumbi1:attack(player1)
-
-
---[[
-player1:use_potion()
-zumbi1:attack(player1)
-]]--

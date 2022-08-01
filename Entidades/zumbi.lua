@@ -15,7 +15,7 @@ function zumbi.new(name, power, category)
             print("Zumbi ".. self.name .. " attacked "..player.name)
             player:Kill()
             print("Zumbi " .. self.name .. " exploded")
-            return nil
+            return  nil
         else
             print("Zumbi ".. self.name.." attacked " .. player.name .. "!")
             player:attacked(self.power)
